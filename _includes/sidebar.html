@@ -1,0 +1,23 @@
+<h3>iOS</h3>
+<ul class="nav nav-sidebar">
+	{% for page_title in site.ios_menu_pages %}
+		{% for page in site.pages %}
+			{% capture page_to_include %}/ios/{{ page_title }}/{% endcapture %}
+			{% if page.url == page_to_include %}
+				<li><a href="{{ page.url }}">{{ page.title }}</a ></li>
+			{% endif %}	
+		{% endfor %}		
+	{% endfor %}
+</ul>
+
+<h3>Android</h3>
+<ul class="nav nav-sidebar">
+	{% for page_title in site.ios_menu_pages %}
+		{% for page in site.pages %}
+			{% capture page_to_include %}/android/{{ page_title }}/{% endcapture %}
+			{% if page.url == page_to_include %}
+				<li><a href="{{ page.url }}">{{ page.title }}</a ></li>
+			{% endif %}	
+		{% endfor %}		
+	{% endfor %}
+</ul>

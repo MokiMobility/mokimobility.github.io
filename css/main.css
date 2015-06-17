@@ -1,0 +1,16 @@
+body {
+  background-color: #ecf0f1;
+}
+
+.site-main {
+  background-color: #ffffff;
+  padding-top: 75px;
+}
+
+.site-footer {
+  margin-top: 50px;
+  
+}
+.site-footer .footer-heading {
+  font-size: 16pt;
+}

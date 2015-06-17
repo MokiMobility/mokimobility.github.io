@@ -1,0 +1,32 @@
+# Site settings
+title: Moki Documentation
+email: kory.calmes@moki.com
+description: > # this means to ignore newlines until "baseurl:"
+  Moki provides an SDK to allow customers to integrate our web based tools on the web.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://mokimobility.github.io" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+permalink: pretty
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+
+# Define which pages should show up in the public side menu
+ios_menu_pages:
+  - getting-started
+  - asm
+  - custom-actions
+  - compliance
+  - network-check
+  - follow-me
+
+android_menu_pages:
+  - getting-started
+  - asm
+  - custom-actions
+  - compliance
+  - network-check
+  - follow-me
+

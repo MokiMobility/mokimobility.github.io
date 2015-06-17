@@ -1,0 +1,38 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+@import "variables";
+@import "bootstrap";
+@import "bootswatch";
+
+blockquote {
+  font-size: 13.75px;
+}
+
+
+.navbar-inverse {
+/*  background-color: $brand-navbar;*/
+  
+}
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+  background-image: url(/assets/logo-sprite.png);
+  background-position: center;
+  width: 186px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 0px;
+}
+
+.site-main {
+  margin-top: 50px;
+}
+/*
+.navbar-inverse .navbar-link:hover {
+      color: #2C3E50; }
+  .navbar-inverse .btn-link {
+    color: #fff; }
+    .navbar-inverse .btn-link:hover, .navbar-inverse .btn-link:focus {
+      color: #2C3E50; }*/
