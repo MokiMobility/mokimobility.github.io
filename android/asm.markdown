@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "ASM Programming Guide"
+title:  "Application Settings Programming Guide"
 tags: mobile, android
 ---
 

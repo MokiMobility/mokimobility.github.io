@@ -25,9 +25,9 @@ You will need your App Key, App Id, and Tenant ID. This can be found by doing th
 	It may look something like this
 
 		repositories {
- 			maven { url 'https://raw.github.com/MokiMobility/MokiManageSDK-Android/master/' }
-	    	mavenLocal()
-		   	mavenCentral()
+			maven { url 'https://raw.github.com/MokiMobility/MokiManageSDK-Android/master/' }
+			mavenLocal()
+			mavenCentral()
 		}
 
 2. Include this dependency:
@@ -35,37 +35,35 @@ You will need your App Key, App Id, and Tenant ID. This can be found by doing th
 		compile 'com.moki:manage-sdk:1.2.4'
 	
 	It may look something like this  
-	
-     	dependencies {
-        	compile fileTree(dir: 'libs', include: ['*.jar'])
-        	compile 'com.moki:manage-sdk:1.2.4'
-        }
+		
+		dependencies {
+			compile fileTree(dir: 'libs', include: ['*.jar'])
+			compile 'com.moki:manage-sdk:1.2.4'
+		}
  
 ## Step 2: Setup `AndroidManifest.xml`
     
 1. Include these permissions:
 
 		<uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    	<uses-permission android:name="android.permission.INTERNET" />
-	    <uses-permission android:name="android.permission.READ_CONTACTS" />
-	    <uses-permission android:name="android.permission.ACCESS_COURSE_LOCATION" />
-	    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-	    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-	    <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
-	    <uses-permission android:name="android.permission.WAKE_LOCK" />
-	    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-	    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-	    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-	    <uses-permission android:name="android.permission.BLUETOOTH" />
-	    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+		<uses-permission android:name="android.permission.INTERNET" />
+		<uses-permission android:name="android.permission.READ_CONTACTS" />
+		<uses-permission android:name="android.permission.ACCESS_COURSE_LOCATION" />
+		<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+		<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+		<uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
+		<uses-permission android:name="android.permission.WAKE_LOCK" />
+		<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+		<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+		<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+		<uses-permission android:name="android.permission.BLUETOOTH" />
+		<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 	    
 	In addition, add these permission but replace `com.example.packagename` with your package name 
 	    
 	    <uses-permission android:name="com.example.packagename.permission.C2D_MESSAGE" />
 	    
-	    <permission
-        android:name="com.example.packagename.permission.C2D_MESSAGE"
-        android:protectionLevel="signature" />
+	    <permission android:name="com.example.packagename.permission.C2D_MESSAGE" android:protectionLevel="signature" />
 
 
 2. Include these receivers:
