@@ -32,13 +32,13 @@ You will need your App Key, App Id, and Tenant ID. This can be found by doing th
 
 2. Include this dependency:
 
-		compile 'com.moki:manage-sdk:1.2.4'
+		compile 'com.moki:manage-sdk:1.2.5'
 	
 	It may look something like this  
 		
 		dependencies {
 			compile fileTree(dir: 'libs', include: ['*.jar'])
-			compile 'com.moki:manage-sdk:1.2.4'
+			compile 'com.moki:manage-sdk:1.2.5'
 		}
  
 ## Step 2: Setup `AndroidManifest.xml`
