@@ -22,7 +22,7 @@ The MokiManage platform uses Apple Push Notification Service (APNs) to communica
 
 For more detail on setting up your app for APNs, click the APNs Setup Guide below.
 
-[APNs Setup Guide](/ios/apns-setup-guide)
+[APNs Setup Guide](/v1/ios/apns-setup-guide)
 
 ## Step 2: Add the MokiManage SDK to your project
 
@@ -30,14 +30,14 @@ Add MokiManage to your application using cocoapods.
 
 	pod 'MokiManageSDK', :git => 'https://github.com/MokiMobility/MokiManageSDK.git', :tag => '1.2.10'
 
-If you want to use CocoaPods, but do not already have an existing Podfile, see the [Cocoapods Getting Started](/ios/getting-started-cocoapods) guide.
+If you want to use CocoaPods, but do not already have an existing Podfile, see the [Cocoapods Getting Started](/v1/ios/getting-started-cocoapods) guide.
 
 <!-- Note: We strongly encourage using CocoaPods. It will ease your configuration, help you get updates to our SDK, and help ensure that you have all the required dependencies. If you do choose to manually add the SDK to your project there is some more work to do.-->
 
 ## Step 3: Set up your Info.plist
 
 ### Add the App Id
-Add a String entry to your target's `Info.plist` named `appId` and enter your App Id. This referes to one of the values from Step 0.
+Add a String entry to your target's `Info.plist` named `appId` and enter your App Id. This refers to one of the values from Step 0.
 
 ![App Id Example](/assets/appID_plist.png)
 
