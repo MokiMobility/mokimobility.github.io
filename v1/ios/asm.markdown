@@ -571,4 +571,4 @@ The following delegate method will notify you that settings have been updated:
 	
 To notify any view controllers of the settings update, you can post a notification when this method is called. Your view controllers can call add themselves as observers, and have the related methods call the settings method to retrieve the new settings.
 
-Click to see a full list of [Object Methods](/ios/appledocs/).
+Click to see a full list of [Object Methods](/v1/ios/appledocs/).

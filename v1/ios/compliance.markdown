@@ -6,7 +6,7 @@ tags: mobile, ios
 
 The Compliance module of the MokiManage SDK provides a way to quickly have your app report on a number of compliance checks that cover both the app and the device the app is running on. By reporting items like if the device is rooted/jailbroken or if it is running on an old version of the OS, you can make functionality decisions in your app based on the current compliance status.
 
-A Compliance Report is a collection of compliance checks performed on the device to give a snapshot of security. The structure of this report in iOS is comprised of a ComplianceReport class with information about the overall check and an array of ComplianceCheck class objects. Documentation for these classes can be found in the [SDK Apple Docs](/ios/appledocs/).
+A Compliance Report is a collection of compliance checks performed on the device to give a snapshot of security. The structure of this report in iOS is comprised of a ComplianceReport class with information about the overall check and an array of ComplianceCheck class objects. Documentation for these classes can be found in the [SDK Apple Docs](/v1/ios/appledocs/).
 
 There are 3 ways to use compliance reports in your application. The first is to initialize compliance checking when you initialize the `MokiManage sharedManager` in the `AppDelegate.m` file.
 
