@@ -8,8 +8,6 @@ Custom Actions allow developers to create their own action references that can b
 
 When a custom action is received, the MokiManage SDK will rebroadcast that action with the intent action `MokiManage.CUSTOM_ACTION_INTENT`. The message of the action will be stored on the intent as a string extra with the  key `MokiManage.CUSTOM_ACTION_MESSAGE`. For more information on BroadcastReceiver and  Intents, see the [Android documentation](http://developer.android.com/reference/android/content/BroadcastReceiver.html).
 
-The GCM message received from MokiManage will be included in the userInfo of the notification. If you app has multiple custom actions defined, extract the action reference from  userInfo using [notification.userInfo objectForKey:@"command"].
-
 ## Example
 
 #### `AndroidManifest.xml`
