@@ -1,6 +1,8 @@
 ---
-layout: redirected
-redirect_to:  /v1/
+layout: page
+title:  "Introduction to MokiManage SDK"
+date:   2015-02-27 18:16:44
+tags: mobile
 ---
 
 The MokiManage SDK provides developers with the ability to quickly and easily integrate their mission critical applications with the MokiManage platform. This gives you the opportunity to manage, monitor, and secure your application with minimal development effort. The SDK is modular and you can determine with components make sense for your solution. The MokiManage SDK components are:

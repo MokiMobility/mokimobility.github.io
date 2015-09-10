@@ -1,0 +1,28 @@
+<h3>Version 1</h3>
+<!-- <a href="/v2/">Looking for version 2?</a> -->
+
+<h4>iOS</h4>
+<ul class="nav nav-sidebar">
+	{% for page_title in site.v1_ios_menu_pages %}
+		{% for page in site.pages %}
+			{% capture page_to_include %}/v1/ios/{{ page_title }}/{% endcapture %}
+			{% if page.url == page_to_include %}
+				<li><a href="{{ page.url }}">{{ page.title }}</a ></li>
+			{% endif %}	
+		{% endfor %}		
+	{% endfor %}
+	<li><a href="/v1/ios/appledocs/">Apple Docs</a ></li>
+</ul>
+
+<h4>Android</h4>
+<ul class="nav nav-sidebar">
+	{% for page_title in site.v1_android_menu_pages %}
+		{% for page in site.pages %}
+			{% capture page_to_include %}/v1/android/{{ page_title }}/{% endcapture %}
+			{% if page.url == page_to_include %}
+				<li><a href="{{ page.url }}">{{ page.title }}</a ></li>
+			{% endif %}	
+		{% endfor %}
+	{% endfor %}
+	<li><a href="/v1/android/javadocs/">Java Docs</a ></li>
+</ul>
