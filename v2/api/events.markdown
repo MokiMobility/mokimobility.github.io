@@ -12,7 +12,7 @@ Use this endpoint to report to the server
 |:--------------|:--------------|:--------------|:--------------|
 | `typeId`	 |	String		|	Yes  	|	The identifier of the event type.	This identifier can be defined by the implementation and should be a machine readable name without spaces. Limited to 24 characters.|
 | `description` |	String		|	Yes  	| A human readable description of this particular event type. Limited to 255 characters. |
-| `appId` 	 |	String		|	Yes  	| The id associated to the tenant app making the event call. |
+| `appId` 	 |	String		|	Yes  	| The App Id associated to the tenant app making the event call. This is NOT the App Key. |
 | `severity` 	 |	Integer		|	Yes  	| This value should be an integer in the range of 1 to 5.	|
 | `data`	 |	Object		|	Yes  	| An object containing a set of data related to the given event.	|
 | `timestamp`	 |	Integer		|	Yes  	|	An epoch timestamp in milliseconds representing the point in time when this event transpired. |
@@ -24,7 +24,7 @@ Note: The `data` object should be traditional json including data types. The dat
 	{
 	    typeId: 0045,
 	    description: ,
-	    appKey: "IPSO-SFHWREG-ASDEGFE-SDGACXV-BSDF",
+	    appId: "IPSO-SFHWREG-ASDEGFE-SDGACXV-BSDF",
 	    severity: 3,
 	    data: {
 	            source:"Software",
