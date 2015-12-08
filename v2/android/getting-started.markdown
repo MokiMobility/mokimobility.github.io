@@ -5,14 +5,14 @@ tags: mobile, android
 ---
 
 ## Step 0: Have an active Moki account
-Before you start, you should already have an account on [mokimanage.com](https://www.mokimanage.com/). If you do not have one, request a [demo](https://moki.com/demo/).
+Before you start, you should already have an account on [app.moki.com](https://app.moki.com/). If you do not have one, request a [demo](https://moki.com/demo/).
 
 You will need your App Key, App Id, and Tenant ID. This can be found by doing the following:
 
-1. Login to the dashboard at [mokimanage.com](https://www.mokimanage.com/)
+1. Login to the dashboard at [app.moki.com](https://app.moki.com/)
 2. Click on the account name in the upper right corner
 3. Click on "Account Settings"
-4. Click on the "Developer Tools" section, identifed by the toolbox icon
+4. Click on the "Developer Tools" section, identified by the toolbox icon
 5. The Tenant ID is listed towards the top
 6. The App Key and App Id can be found associated with each app
 
@@ -73,7 +73,7 @@ The best place to do this is in your extended Application class.
 
 1. Access your app key and app id
 
-	These can be found on [mokimanage.com](https://www.mokimanage.com/app#settings/devSettings) and correlate to your account.
+	These can be found on [app.moki.com](https://app.moki.com/app#settings/devSettings) and correlate to your account.
 	
         public static final String APP_KEY = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx";
         public static final String APP_ID = "xxxxxxxxxx";
