@@ -24,25 +24,25 @@ Agent 3.0+ is a pre-requisite for the sdk. It must be installed and enrolled bef
 
 1. Include this repository:
 
-		maven { url 'https://raw.github.com/MokiMobility/MokiManageSDK-Android/master/' }
+		maven { url 'https://storage.googleapis.com/moki-maven/' }
 
 	It may look something like this
 
 		repositories {
-			maven { url 'https://raw.github.com/MokiMobility/MokiManageSDK-Android/master/' }
+			maven { url 'https://storage.googleapis.com/moki-maven/' }
 			mavenLocal()
 			mavenCentral()
 		}
 
 2. Include this dependency:
 
-		compile 'com.moki:manage-sdk:2.0.2'
+		compile 'com.moki:manage-sdk:2.3.0'
 	
 	It may look something like this  
 		
 		dependencies {
 			compile fileTree(dir: 'libs', include: ['*.jar'])
-			compile 'com.moki:manage-sdk:2.0.2'
+			compile 'com.moki:manage-sdk:2.3.0'
 		}
  
 ## Step 3: Setup `AndroidManifest.xml`
