@@ -33,19 +33,27 @@ When a custom action is received, the MokiManage SDK will rebroadcast that actio
 
 ## Adding Custom Actions to the Actions List on the Dashboard
 
-1. Log on to MokiManage.com
-1. From the Change App drop-down list in the top-left corner, select your app
-1. Click the Actions Tab
-1. Click Custom Actions
-1. In the Custom Actions Name field, give your new action a name
-1. Click Add, then click Done
+1. Log on to app.moki.com
+1. From the Account drop-down in the top-right corner, select Developer Portal
+1. Click Create Actions - Step 2
+1. Select your app
+1. Enter your custom action key
+1. Click Add
 
 Your custom action will now appear in the Action drop-down list on the Devices page of the dashboard.
 
-## Running a Custom Action from the dashboard
+## Running a Custom Action from Devices
 
-1. Log on to MokiManage.com
-1. From the Change App drop-down list in the top-left corner, select your app
-1. Click the Devices tab.
-1. Select the device or devices on which you want to run the custom action.
-1. From the  Actions  drop-down menu, select the custom action that you want to run.
+1. Log on to app.moki.com
+1. Click the Devices tab
+1. Select the device on which you want to run the custom action.
+1. From the Actions drop-down menu, select the custom action that you want to run.
+
+## Running a Custom Action from Device Groups
+
+1. Log on to app.moki.com
+1. Click the Device Groups tab
+1. Click Create Action Sequence on the Device Group tile you wish to use
+1. Click the Moki-enabled Apps tab
+1. Click the app where you added the custom action
+1. Drag your custom action into the command sequence area
