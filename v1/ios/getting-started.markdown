@@ -28,7 +28,7 @@ For more detail on setting up your app for APNs, click the APNs Setup Guide belo
 
 Add MokiManage to your application using cocoapods.
 
-	pod 'MokiManageSDK', :git => 'https://github.com/MokiMobility/MokiManageSDK.git', :tag => '1.2.11'
+	pod 'MokiManageSDK', :git => 'https://github.com/MokiMobility/MokiManageSDK.git', :tag => '1.2.12'
 
 If you want to use CocoaPods, but do not already have an existing Podfile, see the [Cocoapods Getting Started](/v1/ios/getting-started-cocoapods) guide.
 
